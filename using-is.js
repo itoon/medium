@@ -5,4 +5,7 @@ $(document).ready(function(){
 	}else{
 		// do something
 	}
+
+	console.log(is.email('itoon.sit@gmail.com')); // return true
+	console.log(is.url('http://www.medium.com')); // return true
 });
